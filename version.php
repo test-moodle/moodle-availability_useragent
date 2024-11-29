@@ -24,8 +24,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'availability_useragent';
-$plugin->version = 2024112900;
-$plugin->release = '1.0 RC for Moodle 4.4-4.5';
+$plugin->version = 2024100800;
+$plugin->release = '1.0 RC for Moodle 4.4';
 $plugin->requires = 2024042200; // Moodle 4.4
-$plugin->maturity = MATURITY_RC;
-$plugin->supported = [404, 405];
+$plugin->maturity = MATURITY_BETA;
+$plugin->supported = [403, 404];

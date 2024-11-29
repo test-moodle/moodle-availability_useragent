@@ -10,7 +10,7 @@
 $string['pluginname'] = 'User Agent';
 $string['title'] = 'User Agent';
 $string['description'] = 'Restrict access by browser User-Agent';
-$string['require_condition'] = 'Matching browser HTTP User Agent';
+$string['require_condition'] = 'Matching browser type';
 
 // TODO remove next two lines for production
 $string['require_condition_debug_ok'] = 'Matching User-Agent. (Your User-Agent:{$a})';
@@ -20,8 +20,7 @@ $string['require_condition_debug_ko'] = 'Not matching User-Agent. (Your User-Age
 $string['js:useragent'] = 'Require a specific browser';
 
 // Errors.
-$string['error_useragent'] = 'The expression is not a valid regular expression';
+$string['error_useragent'] = 'The expression is not a valid regex';
 
 // Privacy provider.
 $string['privacy:metadata'] = 'The restriction by activity useragent plugin does not store any personal data.';
-
