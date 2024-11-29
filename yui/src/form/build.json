@@ -1,0 +1,10 @@
+{
+  "name": "moodle-availability_useragent-form",
+  "builds": {
+    "moodle-availability_useragent-form": {
+      "jsfiles": [
+        "form.js"
+      ]
+    }
+  }
+}
